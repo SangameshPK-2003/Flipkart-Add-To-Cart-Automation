@@ -1,0 +1,48 @@
+1:16:16 Tab13 PageLoad
+1:16:47 Tab13 StartNav101 #typed
+1:16:47 Tab13 FinishNav101
+1:16:47 Tab13 PageLoad
+1:17:10 Microsoft.Shutdown.OnWindowClosing
+1:17:10 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+1:17:10 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+1:17:10 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:17:10 Tab13 RenderProcessGone
+1:17:10 Browser13 Close Tab13 at 0
+1:17:10 Tab13 WebContentsDestroyed
+1:17:10 Microsoft.Shutdown.OnWindowClosing
+1:17:10 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:17:10 Widget Closed: BrowserFrame
+1:17:10 Microsoft.Shutdown.OnWindowClosing
+1:17:10 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+1:17:10 Microsoft.Browser_Removed
+1:17:10 Microsoft.NewBrowser_Popup
+1:17:10 Microsoft.BrowserList.AddBrowser
+1:17:10 Browser18 Insert active Tab18 at 0
+1:17:10 Tab18 StartNav102 #auto_toplevel
+1:17:10 Tab18 StartNav103 #typed
+1:17:10 Tab18 FinishNav102
+1:17:10 Tab18 PageLoad
+1:17:10 Tab18 FinishNav103
+1:17:10 Tab18 PageLoad
+1:17:10 Tab18 StartNav104 #typed
+1:17:10 Tab18 FinishNav104
+1:17:10 Tab18 PageLoad
+1:17:14 Tab18 StartNav105 #typed
+1:17:14 Tab18 FinishNav105
+1:17:14 Tab18 PageLoad
+1:17:17 Tab18 StartNav106 #typed
+1:17:17 Tab18 FinishNav106
+1:17:17 Tab18 PageLoad
+1:17:20 Tab18 StartNav107 #typed
+1:17:20 Tab18 FinishNav107
+1:17:20 Tab18 PageLoad
+1:17:20 Tab18 StartNav108 #typed
+1:17:20 Tab18 FinishNav108
+1:17:20 Tab18 PageLoad
+1:17:21 Tab18 StartNav109 #typed
+1:17:21 Tab18 FinishNav109
+1:17:21 Tab18 PageLoad
+1:18:34 Tab18 StartNav110 #typed
+1:18:34 Tab18 FinishNav110
+1:18:34 Tab18 PageLoad
+1:43:00 Microsoft.Shutdown.OnWindowClosing
