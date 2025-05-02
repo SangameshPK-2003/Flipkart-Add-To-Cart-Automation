@@ -1,70 +1,119 @@
-# Flipkart Add To Cart Automation
 
-This project automates the process of searching for a product and adding it to the cart on Flipkart using Selenium WebDriver in Java.
+# 🛒 Flipkart Add-To-Cart Automation (Selenium + TestNG + Cucumber)
 
-## Features
+This project automates the process of adding a Samsung product to the cart on Flipkart using **Selenium WebDriver**, **TestNG**, and **Cucumber (BDD)**.
 
-- Launches the Flipkart website.
-- Searches for a specific product (Samsung Galaxy S24).
-- Clicks on the selected product to view its details.
-- Extracts and displays the product highlights.
-- Adds the product to the cart.
+---
 
-## Technologies Used
+## ✅ Features
 
-- **Java**
-- **Selenium WebDriver**
-- **ChromeDriver** (for Chrome browser automation)
+- Open Flipkart in Chrome
+- Search for a product (e.g., "Samsung S24")
+- Navigate to product details
+- Add product to cart
+- Validate successful cart addition
+- Cucumber BDD-style implementation
+- HTML test reports generated post execution
 
-## Setup
+---
 
-### Prerequisites
+## 🧰 Tools & Technologies Used
 
-- Java 8 or higher
-- Selenium WebDriver
-- Chrome Browser
-- ChromeDriver
+| Tool/Technology    | Purpose                     |
+|--------------------|-----------------------------|
+| Java (JDK 17+)     | Programming Language         |
+| Selenium 4         | UI Automation                |
+| TestNG             | Test Execution Framework     |
+| Cucumber (7.14)    | BDD Testing                  |
+| Maven              | Build & Dependency Mgmt      |
+| Eclipse IDE        | Development Environment      |
+| Git & GitHub       | Version Control              |
 
-### Installation
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+- Java JDK 17 or later
+- Maven installed
+- Eclipse IDE (or your preferred Java IDE)
+- Chrome browser
+
+---
+
+## 📦 Installation & Setup
 
 1. Clone the repository:
     ```bash
     git clone https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation.git
     ```
 
-2. Download and configure **ChromeDriver**:
-    - Go to the [ChromeDriver download page](https://sites.google.com/a/chromium.org/chromedriver/downloads) and download the version of ChromeDriver that matches your browser version.
-    - Extract the downloaded file and place it in a directory of your choice.
-    - Set the `webdriver.chrome.driver` system property in your code to point to the path of `chromedriver.exe`. You can also add this to your system environment variables.
+2. Import the project into Eclipse as a **Maven Project**.
 
-3. Add the necessary Selenium dependency (in case you're using Maven):
+3. Run `Maven > Update Project` to download all dependencies.
 
-   **pom.xml**:
-    ```xml
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.1.0</version>
-    </dependency>
-    ```
+---
 
-### Usage
+## 📁 Project Structure
 
-1. Compile and run the `AddToCart.java` file:
-    ```bash
-    javac AddToCart.java
-    java AddToCart
-    ```
+```
+AutomateFlipkart/
+├── src/
+│   ├── main/java/
+│   └── test/
+│       ├── java/
+│       │   ├── stepdefinitions/
+│       │   └── testrunners/
+│       └── resources/
+│           └── features/
+├── testng.xml
+├── pom.xml
+└── README.md
+```
 
-2. The automation script will:
-    - Open the Flipkart website.
-    - Search for **"samsung s24"** in the search bar.
-    - Click on the product link for **SAMSUNG Galaxy S24 5G (Amber Yellow, 128 GB)**.
-    - Extract product highlights and display them in the console.
-    - Click the **"Add to cart"** button and print a success message.
+---
 
-3. The browser will close after 2 seconds.
+## 🧪 How to Run the Test
 
-## License
+1. Right-click on `TestRunner.java` in the `testrunners` package.  
+2. Choose **Run As > TestNG Test** (or JUnit, based on your setup).  
+3. The automation will:
+   - Launch Chrome
+   - Perform product search
+   - Add the item to the cart
+   - Close the browser after execution
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## 📊 Test Report
+
+After execution, open this HTML report in your browser:
+
+```
+/target/cucumber-reports.html
+```
+
+---
+
+## 🔄 Future Improvements
+
+- Integrate **ExtentReports** for detailed reporting
+- Apply **Page Object Model (POM)** design pattern
+- Add support for **Firefox**, **Edge** (cross-browser testing)
+- **Dockerize** the automation suite
+- **CI/CD integration** via Jenkins
+
+---
+
+## 🙏 Acknowledgment
+
+Thanks to everyone who provided feedback and guidance on LinkedIn and GitHub. Your support encourages me to keep improving. 😊
+
+---
+
+## 📎 Author
+
+**Sangamesh P K**  
+🔗 [LinkedIn](https://www.linkedin.com/in/sangameshpk-2003/)  
+📂 [GitHub Repo](https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation)

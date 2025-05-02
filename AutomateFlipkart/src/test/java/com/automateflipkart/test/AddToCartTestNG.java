@@ -2,8 +2,11 @@ package com.automateflipkart.test;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
@@ -21,8 +24,8 @@ public class AddToCartTestNG {
     public void addToCartTest() throws InterruptedException {
         driver.get("https://www.flipkart.com");
 
-        WebElement searchBox = driver.findElement(By.name("q"));
-        Thread.sleep(2000);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
         searchBox.sendKeys("samsung s24");
         searchBox.submit();
 

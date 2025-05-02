@@ -1,7 +1,11 @@
 package stepdefinitions;
 
+import java.time.Duration;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.*;
 
@@ -17,10 +21,10 @@ public class AddToCartSteps {
 
     @When("I search for {string}")
     public void search_product(String product) throws InterruptedException {
-        WebElement searchBox = driver.findElement(By.name("q"));
-        Thread.sleep(2000);
-        searchBox.sendKeys(product);
-        searchBox.submit();
+    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("q")));
+    	searchBox.sendKeys("samsung s24");
+    	searchBox.submit();
     }
 
     @And("I add the first product to cart")
