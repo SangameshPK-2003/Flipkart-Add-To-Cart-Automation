@@ -115,5 +115,5 @@ Thanks to everyone who provided feedback and guidance on LinkedIn and GitHub. Yo
 ## 📎 Author
 
 **Sangamesh Kardegouada**  
-🔗 [LinkedIn](https://www.linkedin.com/in/sangameshpk-2003/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/sangamesh-kardegouda-ab3751280/)  
 📂 [GitHub Repo](https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation)
