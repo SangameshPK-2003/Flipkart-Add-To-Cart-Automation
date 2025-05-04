@@ -106,12 +106,6 @@ After execution, open this HTML report in your browser:
 
 ---
 
-## 🙏 Acknowledgment
-
-Thanks to everyone who provided feedback and guidance on LinkedIn and GitHub. Your support encourages me to keep improving. 😊
-
----
-
 ## 📎 Author
 
 **Sangamesh Kardegouada**  
