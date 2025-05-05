@@ -35,7 +35,7 @@ This project automates the process of adding a Samsung product to the cart on Fl
 
 ### 🔧 Prerequisites
 
-- Java JDK 17 or later
+- Java JDK 17 or latest
 - Maven installed
 - Eclipse IDE (or your preferred Java IDE)
 - Chrome browser
@@ -106,14 +106,8 @@ After execution, open this HTML report in your browser:
 
 ---
 
-## 🙏 Acknowledgment
-
-Thanks to everyone who provided feedback and guidance on LinkedIn and GitHub. Your support encourages me to keep improving. 😊
-
----
-
 ## 📎 Author
 
-**Sangamesh P K**  
-🔗 [LinkedIn](https://www.linkedin.com/in/sangameshpk-2003/)  
+**Sangamesh Kardegouada**  
+🔗 [LinkedIn](https://www.linkedin.com/in/sangamesh-kardegouda-ab3751280/)  
 📂 [GitHub Repo](https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation)
