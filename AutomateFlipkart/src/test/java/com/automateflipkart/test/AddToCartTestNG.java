@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 import java.time.Duration;
-import java.util.List;
 import java.util.Set;
 
 public class AddToCartTestNG {
@@ -39,11 +38,6 @@ public class AddToCartTestNG {
                 driver.switchTo().window(page);
                 break;
             }
-        }
-
-        List<WebElement> products = driver.findElements(By.className("_7eSDEz"));
-        for (WebElement product : products) {
-            System.out.println(product.getText());
         }
 
         driver.findElement(By.xpath("//button[normalize-space()='Add to cart']")).click();
