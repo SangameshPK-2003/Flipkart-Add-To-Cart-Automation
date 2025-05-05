@@ -35,7 +35,7 @@ This project automates the process of adding a Samsung product to the cart on Fl
 
 ### 🔧 Prerequisites
 
-- Java JDK 17 or later
+- Java JDK 17 or latest
 - Maven installed
 - Eclipse IDE (or your preferred Java IDE)
 - Chrome browser
