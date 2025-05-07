@@ -106,8 +106,8 @@ After execution, open this HTML report in your browser:
 
 ---
 
-## 📎 Author
+<!-- ## 📎 Author
 
 **Sangamesh Kardegouada**  
 🔗 [LinkedIn](https://www.linkedin.com/in/sangamesh-kardegouda-ab3751280/)  
-📂 [GitHub Repo](https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation)
+📂 [GitHub Repo](https://github.com/SangameshPK-2003/Flipkart-Add-To-Cart-Automation) -->
